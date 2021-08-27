@@ -47,9 +47,15 @@
                             <div class="post-text">
                                 <span class="p-tagline">Tips &amp; Tricks</span>
                                 <span class="p-date">Auguest 2021</span>
+<<<<<<< HEAD
                                 <h4><a href="#">Previous winner's bio<span></span></a></h4>
                                 <p>Game news excerpt ...</p>
                                 <a class="btn-main" href="#">Read more</a>
+=======
+                                <h4><a href="dark-news-single.html">New updates coming<span></span></a></h4>
+                                <p>Exciting few feature are...</p>
+                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+>>>>>>> 4deca236554ebcd062ce7624ebba5256c0ad0ecb
                             </div>
                         </div>
                     </div>
@@ -64,9 +70,15 @@
                             <div class="post-text">
                                 <span class="p-tagline">Tips &amp; Tricks</span>
                                 <span class="p-date">Auguest 2021</span>
+<<<<<<< HEAD
                                 <h4><a href="#">Previous winner's bio<span></span></a></h4>
                                 <p>Game news excerpt ...</p>
                                 <a class="btn-main" href="#">Read more</a>
+=======
+                                <h4><a href="dark-news-single.html">Gta gifted ten thousand dollar<span></span></a></h4>
+                                <p>When a gamer solved ...</p>
+                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+>>>>>>> 4deca236554ebcd062ce7624ebba5256c0ad0ecb
                             </div>
                         </div>
                     </div>
@@ -81,9 +93,15 @@
                             <div class="post-text">
                                 <span class="p-tagline">Tips &amp; Tricks</span>
                                 <span class="p-date">Auguest 2021</span>
+<<<<<<< HEAD
                                 <h4><a href="#">Previous winner's bio<span></span></a></h4>
                                 <p>Game news excerpt ...</p>
                                 <a class="btn-main" href="#">Read more</a>
+=======
+                                <h4><a href="dark-news-single.html">Cyber punk reviews are mixed<span></span></a></h4>
+                                <p>Having keanu as an icon was...</p>
+                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+>>>>>>> 4deca236554ebcd062ce7624ebba5256c0ad0ecb
                             </div>
                         </div>
                     </div>
@@ -98,9 +116,15 @@
                             <div class="post-text">
                                 <span class="p-tagline">Tips &amp; Tricks</span>
                                 <span class="p-date">Auguest 2021</span>
+<<<<<<< HEAD
                                 <h4><a href="#">Previous winner's bio<span></span></a></h4>
                                 <p>Game news excerpt ...</p>
                                 <a class="btn-main" href="#">Read more</a>
+=======
+                                <h4><a href="dark-news-single.html">Why was flappy bird deleteted<span></span></a></h4>
+                                <p>Therer are some infor...</p>
+                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+>>>>>>> 4deca236554ebcd062ce7624ebba5256c0ad0ecb
                             </div>
                         </div>
                     </div>
@@ -115,9 +139,15 @@
                             <div class="post-text">
                                 <span class="p-tagline">Tips &amp; Tricks</span>
                                 <span class="p-date">Auguest 2021</span>
+<<<<<<< HEAD
                                 <h4><a href="#">Previous winner's bio<span></span></a></h4>
                                 <p>Game news excerpt ...</p>
                                 <a class="btn-main" href="#">Read more</a>
+=======
+                                <h4><a href="dark-news-single.html">PUBG gets negative reponse<span></span></a></h4>
+                                <p> Some country even thinking of banning ...</p>
+                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+>>>>>>> 4deca236554ebcd062ce7624ebba5256c0ad0ecb
                             </div>
                         </div>
                     </div>
