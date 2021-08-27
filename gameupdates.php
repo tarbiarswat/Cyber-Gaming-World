@@ -17,9 +17,125 @@
         </div>
     </div>
 </section>
-           
+
+<!-- section begin -->
+<section aria-label="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb30">
+                <div class="bloglist item">
+                        <div class="post-content">
+                            <div class="post-image">
+                                <img alt="" src="images/news/news-1.jpg">
+                            </div>
+                            <div class="post-text">
+                                <span class="p-tagline">Tips &amp; Tricks</span>
+                                <span class="p-date">Auguest 2021</span>
+                                <h4><a href="dark-news-single.html">Previous winner's bio<span></span></a></h4>
+                                <p>Game news excerpt ...</p>
+                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb30">
+                <div class="bloglist item">
+                        <div class="post-content">
+                            <div class="post-image">
+                                <img alt="" src="images/news/news-1.jpg">
+                            </div>
+                            <div class="post-text">
+                                <span class="p-tagline">Tips &amp; Tricks</span>
+                                <span class="p-date">Auguest 2021</span>
+                                <h4><a href="dark-news-single.html">Previous winner's bio<span></span></a></h4>
+                                <p>Game news excerpt ...</p>
+                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb30">
+                <div class="bloglist item">
+                        <div class="post-content">
+                            <div class="post-image">
+                                <img alt="" src="images/news/news-1.jpg">
+                            </div>
+                            <div class="post-text">
+                                <span class="p-tagline">Tips &amp; Tricks</span>
+                                <span class="p-date">Auguest 2021</span>
+                                <h4><a href="dark-news-single.html">Previous winner's bio<span></span></a></h4>
+                                <p>Game news excerpt ...</p>
+                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb30">
+                <div class="bloglist item">
+                        <div class="post-content">
+                            <div class="post-image">
+                                <img alt="" src="images/news/news-1.jpg">
+                            </div>
+                            <div class="post-text">
+                                <span class="p-tagline">Tips &amp; Tricks</span>
+                                <span class="p-date">Auguest 2021</span>
+                                <h4><a href="dark-news-single.html">Previous winner's bio<span></span></a></h4>
+                                <p>Game news excerpt ...</p>
+                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb30">
+                <div class="bloglist item">
+                        <div class="post-content">
+                            <div class="post-image">
+                                <img alt="" src="images/news/news-1.jpg">
+                            </div>
+                            <div class="post-text">
+                                <span class="p-tagline">Tips &amp; Tricks</span>
+                                <span class="p-date">Auguest 2021</span>
+                                <h4><a href="dark-news-single.html">Previous winner's bio<span></span></a></h4>
+                                <p>Game news excerpt ...</p>
+                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb30">
+                <div class="bloglist item">
+                        <div class="post-content">
+                            <div class="post-image">
+                                <img alt="" src="images/news/news-1.jpg">
+                            </div>
+                            <div class="post-text">
+                                <span class="p-tagline">Tips &amp; Tricks</span>
+                                <span class="p-date">Auguest 2021</span>
+                                <h4><a href="dark-news-single.html">Previous winner's bio<span></span></a></h4>
+                                <p>Game news excerpt ...</p>
+                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+            
+            
             
 
+
+        </div>
+                
+    </div>
+ 
+           
+            
+</section> 
 <?php  include('includes/footer.php')  ?>
 
 <?php  include('includes/scripts.php')  ?>
