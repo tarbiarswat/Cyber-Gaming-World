@@ -14,18 +14,18 @@
                     <div class="nft__item">
                         
                         <div class="author_list_pp">
-                            <a href="dark-author.html">                                    
+                            <a href="#">                                    
                                 <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
                                 <i class="fa fa-check"></i>
                             </a>
                         </div>
                         <div class="nft__item_wrap">
-                            <a href="dark-item-details.html">
+                            <a href="#">
                                 <img src="images/items/static-1.jpg" class="lazy nft__item_preview" alt="">
                             </a>
                         </div>
                         <div class="nft__item_info">
-                            <a href="dark-item-details.html">
+                            <a href="#">
                                 <h4>Valorant</h4>
                             </a>
                             <div class="nft__item_price">
@@ -46,18 +46,18 @@
                     <div class="nft__item">
                         
                         <div class="author_list_pp">
-                            <a href="dark-author.html">                                    
+                            <a href="#">                                    
                                 <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
                                 <i class="fa fa-check"></i>
                             </a>
                         </div>
                         <div class="nft__item_wrap">
-                            <a href="dark-item-details.html">
+                            <a href="#">
                                 <img src="images/items/static-1.jpg" class="lazy nft__item_preview" alt="">
                             </a>
                         </div>
                         <div class="nft__item_info">
-                            <a href="dark-item-details.html">
+                            <a href="#">
                                 <h4>Valorant</h4>
                             </a>
                             <div class="nft__item_price">
@@ -78,18 +78,18 @@
                     <div class="nft__item">
                         
                         <div class="author_list_pp">
-                            <a href="dark-author.html">                                    
+                            <a href="#">                                    
                                 <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
                                 <i class="fa fa-check"></i>
                             </a>
                         </div>
                         <div class="nft__item_wrap">
-                            <a href="dark-item-details.html">
+                            <a href="#">
                                 <img src="images/items/static-1.jpg" class="lazy nft__item_preview" alt="">
                             </a>
                         </div>
                         <div class="nft__item_info">
-                            <a href="dark-item-details.html">
+                            <a href="#">
                                 <h4>Valorant</h4>
                             </a>
                             <div class="nft__item_price">
@@ -110,18 +110,18 @@
                     <div class="nft__item">
                         
                         <div class="author_list_pp">
-                            <a href="dark-author.html">                                    
+                            <a href="#">                                    
                                 <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
                                 <i class="fa fa-check"></i>
                             </a>
                         </div>
                         <div class="nft__item_wrap">
-                            <a href="dark-item-details.html">
+                            <a href="#">
                                 <img src="images/items/static-1.jpg" class="lazy nft__item_preview" alt="">
                             </a>
                         </div>
                         <div class="nft__item_info">
-                            <a href="dark-item-details.html">
+                            <a href="#">
                                 <h4>Valorant</h4>
                             </a>
                             <div class="nft__item_price">
