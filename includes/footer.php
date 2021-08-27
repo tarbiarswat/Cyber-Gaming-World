@@ -32,21 +32,5 @@
                     </div>
                 </div>
             </div>
-            <div class="subfooter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="de-flex">
-                                <div class="de-flex-col">
-                                    <a href="dark-index.html">
-                                        <img alt="" class="f-logo" src="images/logo-light.png" /><span class="copy">&copy; Copyright 2021 - Gigaland by Designesia</span>
-                                    </a>
-                                </div>
-                                <div class="de-flex-col">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </footer>
