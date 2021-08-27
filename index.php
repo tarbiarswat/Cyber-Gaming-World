@@ -3,8 +3,6 @@
 
 <?php  include('includes/header.php')  ?>
 
-
-        <!-- content begin -->
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
             <section id="section-hero" aria-label="section" class="no-top no-bottom vh-100" data-bgimage="url(images/background/bg-dark.jpg) bottom">
