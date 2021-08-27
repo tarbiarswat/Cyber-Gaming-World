@@ -1,0 +1,144 @@
+<section id="section-items" class="no-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center">
+                    <h2>Featured Tournaments</h2>
+                    <div class="small-border bg-color-2"></div>
+                </div>
+            </div>
+            
+            <div id="items-carousel" class="owl-carousel wow fadeIn">
+
+                <div class="d-item">
+                    <div class="nft__item">
+                        
+                        <div class="author_list_pp">
+                            <a href="dark-author.html">                                    
+                                <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
+                                <i class="fa fa-check"></i>
+                            </a>
+                        </div>
+                        <div class="nft__item_wrap">
+                            <a href="dark-item-details.html">
+                                <img src="images/items/static-1.jpg" class="lazy nft__item_preview" alt="">
+                            </a>
+                        </div>
+                        <div class="nft__item_info">
+                            <a href="dark-item-details.html">
+                                <h4>Valorant</h4>
+                            </a>
+                            <div class="nft__item_price">
+                                120$<span>1/20</span>
+                            </div>
+                            <div class="nft__item_action">
+                                <a href="#">Enter Tournament</a>
+                            </div>
+                            <div class="nft__item_like">
+                                <i class="fa fa-heart"></i><span>50</span>
+                            </div>                            
+                        </div> 
+                    </div>
+                </div>                 
+                    
+
+                <div class="d-item">
+                    <div class="nft__item">
+                        
+                        <div class="author_list_pp">
+                            <a href="dark-author.html">                                    
+                                <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
+                                <i class="fa fa-check"></i>
+                            </a>
+                        </div>
+                        <div class="nft__item_wrap">
+                            <a href="dark-item-details.html">
+                                <img src="images/items/static-1.jpg" class="lazy nft__item_preview" alt="">
+                            </a>
+                        </div>
+                        <div class="nft__item_info">
+                            <a href="dark-item-details.html">
+                                <h4>Valorant</h4>
+                            </a>
+                            <div class="nft__item_price">
+                                120$<span>1/20</span>
+                            </div>
+                            <div class="nft__item_action">
+                                <a href="#">Enter Tournament</a>
+                            </div>
+                            <div class="nft__item_like">
+                                <i class="fa fa-heart"></i><span>50</span>
+                            </div>                            
+                        </div> 
+                    </div>
+                </div>
+
+
+                <div class="d-item">
+                    <div class="nft__item">
+                        
+                        <div class="author_list_pp">
+                            <a href="dark-author.html">                                    
+                                <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
+                                <i class="fa fa-check"></i>
+                            </a>
+                        </div>
+                        <div class="nft__item_wrap">
+                            <a href="dark-item-details.html">
+                                <img src="images/items/static-1.jpg" class="lazy nft__item_preview" alt="">
+                            </a>
+                        </div>
+                        <div class="nft__item_info">
+                            <a href="dark-item-details.html">
+                                <h4>Valorant</h4>
+                            </a>
+                            <div class="nft__item_price">
+                                120$<span>1/20</span>
+                            </div>
+                            <div class="nft__item_action">
+                                <a href="#">Enter Tournament</a>
+                            </div>
+                            <div class="nft__item_like">
+                                <i class="fa fa-heart"></i><span>50</span>
+                            </div>                            
+                        </div> 
+                    </div>
+                </div>
+
+
+                <div class="d-item">
+                    <div class="nft__item">
+                        
+                        <div class="author_list_pp">
+                            <a href="dark-author.html">                                    
+                                <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
+                                <i class="fa fa-check"></i>
+                            </a>
+                        </div>
+                        <div class="nft__item_wrap">
+                            <a href="dark-item-details.html">
+                                <img src="images/items/static-1.jpg" class="lazy nft__item_preview" alt="">
+                            </a>
+                        </div>
+                        <div class="nft__item_info">
+                            <a href="dark-item-details.html">
+                                <h4>Valorant</h4>
+                            </a>
+                            <div class="nft__item_price">
+                                120$<span>1/20</span>
+                            </div>
+                            <div class="nft__item_action">
+                                <a href="#">Enter Tournament</a>
+                            </div>
+                            <div class="nft__item_like">
+                                <i class="fa fa-heart"></i><span>50</span>
+                            </div>                            
+                        </div> 
+                    </div>
+                </div>
+                      
+                    
+            </div>
+        </div>
+    </div>
+</section>
