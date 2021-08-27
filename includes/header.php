@@ -58,18 +58,18 @@
                                     </li>
 
                                     <li>
-                                        <a href="#">Game Updates<span></span></a>
+                                        <a href="Game Updates.php">Game Updates<span></span></a>
                                     </li>
                                     <li>
                                         <a href="about.php">About<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="#">Contact<span></span></a>
+                                        <a href="Contact.php">Contact<span></span></a>
                                     </li>
                                 </ul>
 
                                 <div class="menu_side_area">
-                                <a href="#" class="btn-main">Login</a>
+                                <a href="Login" class="btn-main">Login</a>
                                 <span id="menu-btn"></span>
                                 </div>
                             
