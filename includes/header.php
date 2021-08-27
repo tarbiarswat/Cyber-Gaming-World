@@ -58,7 +58,7 @@
                                     </li>
 
                                     <li>
-                                        <a href="Game Updates.php">Game Updates<span></span></a>
+                                        <a href="gameupdates.php">Game Updates<span></span></a>
                                     </li>
                                     <li>
                                         <a href="about.php">About<span></span></a>
