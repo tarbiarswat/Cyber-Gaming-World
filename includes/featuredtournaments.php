@@ -21,7 +21,7 @@
                         </div>
                         <div class="nft__item_wrap">
                             <a href="#">
-                                <img src="images/items/static-1.jpg" class="lazy nft__item_preview" alt="">
+                                <img src="images/background/post-default.jpg" class="lazy nft__item_preview" alt="">
                             </a>
                         </div>
                         <div class="nft__item_info">
@@ -53,7 +53,7 @@
                         </div>
                         <div class="nft__item_wrap">
                             <a href="#">
-                                <img src="images/items/static-1.jpg" class="lazy nft__item_preview" alt="">
+                            <img src="images/background/post-default.jpg" class="lazy nft__item_preview" alt="">
                             </a>
                         </div>
                         <div class="nft__item_info">
@@ -85,7 +85,7 @@
                         </div>
                         <div class="nft__item_wrap">
                             <a href="#">
-                                <img src="images/items/static-1.jpg" class="lazy nft__item_preview" alt="">
+                            <img src="images/background/post-default.jpg" class="lazy nft__item_preview" alt="">
                             </a>
                         </div>
                         <div class="nft__item_info">
@@ -117,7 +117,7 @@
                         </div>
                         <div class="nft__item_wrap">
                             <a href="#">
-                                <img src="images/items/static-1.jpg" class="lazy nft__item_preview" alt="">
+                            <img src="images/background/post-default.jpg" class="lazy nft__item_preview" alt="">
                             </a>
                         </div>
                         <div class="nft__item_info">

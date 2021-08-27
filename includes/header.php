@@ -19,8 +19,7 @@
     <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
     <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
     <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
-    <!-- <link href="css/style.css" rel="stylesheet" type="text/css" /> -->
-    <link href="css/stylev2.css" rel="stylesheet" type="text/css" />
+    <link href="css/mdbstyle.css" rel="stylesheet" type="text/css" />
     <link id="colors" href="css/scheme-main.css" rel="stylesheet" type="text/css" />
     <link href="css/coloring.css" rel="stylesheet" type="text/css" />
 
@@ -64,7 +63,7 @@
                                 </ul>
 
                                 <div class="menu_side_area">
-                                <a href="Login" class="btn-main">Login</a>
+                                <a href="register.php" class="btn-main">Members</a>
                                 <span id="menu-btn"></span>
                                 </div>
                             </div>
@@ -73,3 +72,4 @@
                 </div>
             </div>
         </header>
+    </div>

@@ -3,7 +3,7 @@
 
 <?php  include('includes/header.php')  ?>
 
-<section id="subheader" class="text-light" data-bgimage="url(images/background/subheader-dark.jpg) top">
+<section id="subheader" class="text-light" data-bgimage="url(images/background/subheader.jpg) top">
     <div class="center-y relative text-center">
         <div class="container">
             <div class="row">
@@ -18,7 +18,6 @@
     </div>
 </section>
 
-<!-- section begin -->
 <section aria-label="section">
     <div class="container">
         <div class="row">
@@ -31,9 +30,9 @@
                             <div class="post-text">
                                 <span class="p-tagline">Tips &amp; Tricks</span>
                                 <span class="p-date">Auguest 2021</span>
-                                <h4><a href="dark-news-single.html">Previous winner's bio<span></span></a></h4>
+                                <h4><a href="#">Previous winner's bio<span></span></a></h4>
                                 <p>Game news excerpt ...</p>
-                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+                                <a class="btn-main" href="#">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -48,9 +47,9 @@
                             <div class="post-text">
                                 <span class="p-tagline">Tips &amp; Tricks</span>
                                 <span class="p-date">Auguest 2021</span>
-                                <h4><a href="dark-news-single.html">Previous winner's bio<span></span></a></h4>
+                                <h4><a href="#">Previous winner's bio<span></span></a></h4>
                                 <p>Game news excerpt ...</p>
-                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+                                <a class="btn-main" href="#">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -65,9 +64,9 @@
                             <div class="post-text">
                                 <span class="p-tagline">Tips &amp; Tricks</span>
                                 <span class="p-date">Auguest 2021</span>
-                                <h4><a href="dark-news-single.html">Previous winner's bio<span></span></a></h4>
+                                <h4><a href="#">Previous winner's bio<span></span></a></h4>
                                 <p>Game news excerpt ...</p>
-                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+                                <a class="btn-main" href="#">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -82,9 +81,9 @@
                             <div class="post-text">
                                 <span class="p-tagline">Tips &amp; Tricks</span>
                                 <span class="p-date">Auguest 2021</span>
-                                <h4><a href="dark-news-single.html">Previous winner's bio<span></span></a></h4>
+                                <h4><a href="#">Previous winner's bio<span></span></a></h4>
                                 <p>Game news excerpt ...</p>
-                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+                                <a class="btn-main" href="#">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -99,9 +98,9 @@
                             <div class="post-text">
                                 <span class="p-tagline">Tips &amp; Tricks</span>
                                 <span class="p-date">Auguest 2021</span>
-                                <h4><a href="dark-news-single.html">Previous winner's bio<span></span></a></h4>
+                                <h4><a href="#">Previous winner's bio<span></span></a></h4>
                                 <p>Game news excerpt ...</p>
-                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+                                <a class="btn-main" href="#">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -116,25 +115,18 @@
                             <div class="post-text">
                                 <span class="p-tagline">Tips &amp; Tricks</span>
                                 <span class="p-date">Auguest 2021</span>
-                                <h4><a href="dark-news-single.html">Previous winner's bio<span></span></a></h4>
+                                <h4><a href="#">Previous winner's bio<span></span></a></h4>
                                 <p>Game news excerpt ...</p>
-                                <a class="btn-main" href="dark-news-single.html">Read more</a>
+                                <a class="btn-main" href="#">Read more</a>
                             </div>
                         </div>
                     </div>
             </div>
-            
-            
-            
-            
-
 
         </div>
                 
     </div>
- 
-           
-            
+  
 </section> 
 <?php  include('includes/footer.php')  ?>
 
