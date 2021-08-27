@@ -18,7 +18,7 @@
                             
                             <div class="col-lg-5 offset-lg-1">
                                 <div class="box-rounded padding30" data-bgcolor="#21273e">
-                                    <h3 class="mb10">Sign In</h3>
+                                    <h3 class="mb10">Register here</h3>
                                     <p>Already a member? Login <a href="login.php">here<span></span></a>.</p>
                                     <form name="contactForm" id='contact_form' class="form-border" method="post" action='blank.php'>
 
