@@ -63,11 +63,7 @@
                                 </ul>
 
                                 <div class="menu_side_area">
-<<<<<<< HEAD
                                 <a href="register.php" class="btn-main">Members</a>
-=======
-                                <a href="Login.php" class="btn-main">Login</a>
->>>>>>> 4deca236554ebcd062ce7624ebba5256c0ad0ecb
                                 <span id="menu-btn"></span>
                                 </div>
                             </div>
