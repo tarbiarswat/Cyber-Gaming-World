@@ -69,7 +69,7 @@
                                 </ul>
 
                                 <div class="menu_side_area">
-                                <a href="Login" class="btn-main">Login</a>
+                                <a href="Login.php" class="btn-main">Login</a>
                                 <span id="menu-btn"></span>
                                 </div>
                             
