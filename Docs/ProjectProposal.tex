@@ -1,0 +1,148 @@
+\documentclass[11pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[myheadings]{fullpage}
+
+% Package for headers 
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+% For figures and stuff
+\usepackage{graphicx, wrapfig, subcaption, setspace, booktabs}
+\usepackage[T1]{fontenc}
+
+% Change for different font sizes and families
+\usepackage[font=small, labelfont=bf]{caption}
+\usepackage{fourier}
+\usepackage[protrusion=true, expansion=true]{microtype}
+
+% Maths
+\usepackage{amsmath,amssymb}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+% Bibliography
+\usepackage{biblatex} 
+\addbibresource{references.bib}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+\onehalfspacing
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.5cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Header and footer information
+\setlength\headheight{15pt}
+\fancyhead[L]{Project Proposal} 
+\fancyhead[R]{Cyber Gaming World}
+\fancyfoot[R]{\thepage}
+
+
+\begin{document}
+
+\date{}
+
+\title{ \normalsize 
+		
+		% Change to your faculty if needed
+		\includegraphics[width=115mm]{img/NSU Logo.png}\\[.5cm]
+		\LARGE \textsc{North South University} \\ 
+		\LARGE{Department of Electrical and Computer Engineering } \\
+		\vspace{5}
+		\HRule{2pt} \\
+		\LARGE \textbf{Project Proposal of - Cyber Gaming World} 
+		\HRule{2pt} \\ [0.5cm]
+		
+		\large {Course: CSE311 - Database Management System} \\
+		\large {Section: 4}\\
+		\large {Semester: Summer 2021}\\
+		\textbf \large  Faculty: Intisar Tahmid Naheen \\
+        {Lecturer} \\
+		\normalsize }
+
+
+\author{
+        Lab Instructor: Nazmul Alam Dipto \\
+        \\
+		Submitted by: Group - 6 \\
+		Md. Tarbiar Swat - 1620918042 \\
+		Munmun Rahman - 1813434642 }
+
+
+		 
+\maketitle
+
+%\newpage
+
+\section*{Introduction}
+
+% Add your own abstract here
+As per our recent observations in tech-based communities and social media, the young people are getting more and more interested in gaming/cyber sites. This made us come up with an  interesting idea to give an ultimate platform to these enthusiastic people. Where we are presenting a place that gathers the major games along with its upcoming events, new matches that will be in the ‘Game Updates’ section. Through this gamers can be kept updated with new upcoming and sensational gaming events, news, matches. Our Landing Page will contain mainly the popular game tournaments with a registration button. There might be some different sections based on the game categories. Apart from the upcoming features, we are more into the admin and user panel to manage and update all the events and tournaments. 
+
+\section*{Objective}
+
+\begin{itemize}
+\item To keep the gamers updated about their favorite game’s events.
+\item Giving an platform to the game makers along with the developers
+\item To promote the new & upcoming games. 
+\item Launching tournament for the popular games.
+\item Making it easier to track the gaming challenges happening online.
+
+
+\end{itemize}
+\section*{Target Users}
+\begin{itemize}
+\item The Gamers.
+\item The Technophiles.
+\item Mobile Gamers*
+\end{itemize}
+
+\section*{Possibilities}
+Convenient user panel and admin panel with maximum UX, also we want to implement this web site to an app to take it to another level. For mobile gamers, we can create a bigger platform with exciting rewards such as: gift prize, gift cards and different premium in-game purchases as a prize. It has some possibilities which drives us to put more thought after it to turn it into a mobile app with more polish & detailed features. 
+
+
+
+\section*{Feature-wise description}
+The cyber gaming world is basically a web based program for gamers This project contains three modes. 
+\begin{itemize}
+\item Landing Page
+\end{itemize}
+\begin{itemize}
+\item Admin Panel
+\item User Panel
+\end{itemize}
+The landing page is basically the frontend which is viewed by anyone accessing the site. The user panel will be available for only registered members as mentioned above in our targeted users. Any one/gamer needs to create a valid account before accessing the site. After creating an account successfully the user will be able to see their own unique dashboard in their user panel. The dashboard will contain their history. If anyone wants to launch their own tournament, they have to get their account verified with us. An admin has to approve the tournament after checking the requirements met or not. 
+
+
+\section*{Required Tools and Resources}
+
+\begin{itemize}
+\item HTML
+\item CSS
+\item Bootstrap (+ MDBootstrap)
+\item MySQL
+\item PHP
+\end{itemize}
+
+
+\section*{Challenges}
+
+Since there's three modes, it might be a little hurdle to handle all these together. Manually dealing with the admin panel could be an issue if there's a lot of new users at a time. Showcasing the new graphics of different games, matches will be taking a big chunk of the database.
+
+
+\newpage
+\printbibliography
+
+\end{document}
