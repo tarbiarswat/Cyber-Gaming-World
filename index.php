@@ -41,38 +41,38 @@
                         </div>
                         <div class="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight" data-wow-delay=".1s">
                             <a href="dark-explore.html" class="icon-box style-2 rounded">
-                                <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
+                                <img class="lazy" src="images/misc/weapon.png" alt="">
                                 <span>Action</span>
                             </a>
                         </div>
                         <div class="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight" data-wow-delay=".2s">
                             <a href="dark-explore.html" class="icon-box style-2 rounded">
-                                <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
+                                <img class="lazy" src="images/misc/flags.png" alt="">
                                 <span>Racing</span>
                             </a>
                         </div>
                         <div class="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight" data-wow-delay=".3s">
                             <a href="dark-explore.html" class="icon-box style-2 rounded">
-                                <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
-                                <span>Domain Names</span>
+                                <img class="lazy" src="images/misc/cards.png" alt="">
+                                <span>Cards</span>
                             </a>
                         </div>
                         <div class="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight" data-wow-delay=".4s">
                             <a href="dark-explore.html" class="icon-box style-2 rounded">
-                                <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
-                                <span>Virtual Worlds</span>
+                                <img class="lazy" src="images/misc/vr.png" alt="">
+                                <span>Augmented</span>
                             </a>
                         </div>
                         <div class="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight" data-wow-delay=".5s">
                             <a href="dark-explore.html" class="icon-box style-2 rounded">
-                                <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
-                                <span>Trading Cards</span>
+                                <img class="lazy" src="images/misc/simulation.png" alt="">
+                                <span>Simulation</span>
                             </a>
                         </div>
                         <div class="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight" data-wow-delay=".6s">
                             <a href="dark-explore.html" class="icon-box style-2 rounded">
-                                <img class="lazy" src="images/misc/avatar-2.jpg" alt="">
-                                <span>Collectibles</span>
+                                <img class="lazy" src="images/misc/casino.png" alt="">
+                                <span>Casino</span>
                             </a>
                         </div>
                     </div>
