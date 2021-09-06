@@ -3,22 +3,25 @@
 
 <?php  include('includes/header.php')  ?>
 
-<section id="subheader" class="text-light" data-bgimage="url(images/background/subheader-dark.jpg) top">
-    <div class="center-y relative text-center">
-        <div class="container">
-            <div class="row">
-                
-                <div class="col-md-12 text-center">
-                    <h1>Login</h1>
-                    <p>Log in here please</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
+<div class="no-bottom no-top" id="content">
+    <div id="top"></div>
+			
+		<section class="full-height relative no-top no-bottom vertical-center" data-bgimage="url(images/background/subheader-dark.jpg)">
+                <div class="overlay-gradient t50">
+					<div class="center-y relative">
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-lg-5 text-light">
+                                <div class="spacer-10"></div>
+                                <h1>Login</h1>
+                                <p class="lead">Desc..</p>
+                            </div>
+						</div>
+					</div>
+				</div>
+		</section>		
     </div>
-</section>
-
-
+</div>
 <?php  include('includes/footer.php')  ?>
 
 <?php  include('includes/scripts.php')  ?>
