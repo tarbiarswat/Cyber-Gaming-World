@@ -1,6 +1,7 @@
 <?php  
-include('includes/header.php');   
+include('includes/header.php'); 
 include('includes/navbar.php');
+include('includes/topbar.php');   
 ?>
 
     <div id="content-wrapper" class="d-flex flex-column">
@@ -104,10 +105,6 @@ include('includes/navbar.php');
             </div>
           </div>
 
-          
-
-
-
             </div>
           </div>
 
@@ -122,6 +119,7 @@ include('includes/navbar.php');
 
 </html>
 <?php  
+ 
 include('includes/scripts.php');  
  
 ?>

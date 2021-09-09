@@ -29,8 +29,8 @@
         <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Access Tournaments</h6>
-            <a class="collapse-item" href="#">Add Tournaments</a>
-            <a class="collapse-item" href="#">Tournaments List</a>
+            <a class="collapse-item" href="add_tournaments.php">Add Tournaments</a>
+            <a class="collapse-item" href="view_tournaments.php">View Tournaments</a>
           </div>
         </div>
       </li>
@@ -43,8 +43,8 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Access Game Updates</h6>
-            <a class="collapse-item" href="#">Add Game Updates</a>
-            <a class="collapse-item" href="#">Game Updates List</a>
+            <a class="collapse-item" href="add_game_updates.php">Add Game Updates</a>
+            <a class="collapse-item" href="view_game_updates.php">View Game Updates</a>
           </div>
         </div>
       </li>
@@ -57,8 +57,8 @@
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Access Games</h6>
-            <a class="collapse-item" href="#">Add New Game</a>
-            <a class="collapse-item" href="#">View Games</a>
+            <a class="collapse-item" href="add_games.php">Add New Game</a>
+            <a class="collapse-item" href="view_games.php">View Games</a>
             
           </div>
         </div>
@@ -89,7 +89,23 @@
         </div>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link" href="members.php">
+          <i class="fas fa-user-plus"></i>
+          <span>Gamers</span></a>
+      </li>
 
+      <li class="nav-item">
+        <a class="nav-link" href="members.php">
+          <i class="fas fa-user-plus"></i>
+          <span>Organizers</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="members.php">
+          <i class="fas fa-user-plus"></i>
+          <span>Members</span></a>
+      </li>
 
       <li class="nav-item">
         <a class="nav-link" href="#">
@@ -105,4 +121,12 @@
 
       <hr class="sidebar-divider d-none d-md-block">
 
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
     </ul>
+
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
