@@ -1,28 +1,6 @@
-/* ================================================== */
-
-
-/* GIGALAND
-/* created by designesia
-
-@charset "utf-8";
-
-/* ================================================== */
-
-
-/* import custom fonts */
-
-
-/* ================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-/* ================================================== */
-
-
-/* import fonts icon */
-
-
-/* ================================================== */
 
 @import url("../fonts/font-awesome/css/font-awesome.css");
 @import url("../fonts/elegant_font/HTML_CSS/style.css");
@@ -34,13 +12,6 @@
     --title-font: "Manrope", Helvetica, Arial, sans-serif;
 }
 
-/* ================================================== */
-
-
-/* body */
-
-
-/* ================================================== */
 
 html {
     overflow-x: hidden;
