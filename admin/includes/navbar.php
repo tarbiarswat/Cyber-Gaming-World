@@ -89,7 +89,23 @@
         </div>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link" href="members.php">
+          <i class="fas fa-user-plus"></i>
+          <span>Gamers</span></a>
+      </li>
 
+      <li class="nav-item">
+        <a class="nav-link" href="members.php">
+          <i class="fas fa-user-plus"></i>
+          <span>Organizers</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="members.php">
+          <i class="fas fa-user-plus"></i>
+          <span>Members</span></a>
+      </li>
 
       <li class="nav-item">
         <a class="nav-link" href="#">
@@ -105,4 +121,12 @@
 
       <hr class="sidebar-divider d-none d-md-block">
 
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
     </ul>
+
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
