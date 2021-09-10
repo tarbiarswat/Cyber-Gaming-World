@@ -1,6 +1,6 @@
 <?php
 
-$connection = mysqli_connect("localhost","root","","cgw_db");
+include('includes/db_config.php'); 
 
 if(isset($_POST['login_btn']))
 {
@@ -12,7 +12,7 @@ if(isset($_POST['login_btn']))
 
     if(mysqli_fetch_array($query_run))
     {
-        $_SESSION['username'] = $email_id ;
+        $_SESSION['email_id'] = $email_id ;
         header('Location: index.php');
     }
     else
@@ -21,11 +21,7 @@ if(isset($_POST['login_btn']))
         header('Location: login.php');
     }
  
-
 }
-
-
-
 
 
 
