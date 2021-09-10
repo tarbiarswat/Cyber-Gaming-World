@@ -4,7 +4,7 @@
         <div class="sidebar-brand-icon">
           <i class="fas fa-user-tie"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Hi, Admin <sup></sup></div>
+        <div class="sidebar-brand-text mx-3">Hi, Gamer <sup></sup></div>
       </a>
 
       <hr class="sidebar-divider my-0">
