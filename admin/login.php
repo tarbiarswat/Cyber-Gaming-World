@@ -24,9 +24,9 @@ include('includes/header.php');
                     
  
                   </div>
-                  <form class="user" action="#" method="POST">
+                  <form class="user" action="class.php" method="POST">
                     <div class="form-group">
-                      <input type="email" name="email" class="form-control form-control-user"  placeholder="Enter Email Address...">
+                      <input type="email" name="email_id" class="form-control form-control-user"  placeholder="Enter Email Address...">
                     </div>
                     <div class="form-group">
                       <input type="password" name="password" class="form-control form-control-user"  placeholder="Password">
