@@ -102,9 +102,9 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="memberslist.php">
+        <a class="nav-link" href="adminslist.php">
           <i class="fas fa-user-plus"></i>
-          <span>Members</span></a>
+          <span>Admins</span></a>
       </li>
 
       <li class="nav-item">
