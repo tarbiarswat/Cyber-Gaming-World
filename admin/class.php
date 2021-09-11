@@ -1,5 +1,5 @@
 <?php
-
+include('session.php'); 
 include('includes/db_config.php'); 
 
 if(isset($_POST['login_btn']))
@@ -17,7 +17,7 @@ if(isset($_POST['login_btn']))
     }
     else
     {
-        $_SESSION['status'] = 'Invalid username or password';
+        $_SESSION['status'] = 'Wrong Email ID or Password ';
         header('Location: login.php');
     }
  

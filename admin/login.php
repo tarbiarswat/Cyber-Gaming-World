@@ -21,6 +21,14 @@ include('includes/header.php');
                   <img class="img-profile" src="img/icons8-lock-40.png">
                   
                     <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+
+                    <?php
+                      if(isset($_SESSION['status']) && $_SESSION['status'] !='' )
+                      {
+                        echo '<h4 class= "bg-danger text-white"> '.$_SESSION['status'].' </h4>';
+                        unset($_SESSION['status']);
+                      }
+                    ?>
                     
  
                   </div>
