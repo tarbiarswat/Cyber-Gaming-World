@@ -164,7 +164,7 @@
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
           
-          <form action="#" method="POST">
+          <form action="class.php" method="POST">
 
           <button type="submit" name="logout_btn" class="btn btn-primary" >Logout</button>
 

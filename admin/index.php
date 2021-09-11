@@ -2,7 +2,8 @@
 include('session.php'); 
 include('includes/header.php'); 
 include('includes/navbar.php');
-include('includes/topbar.php');   
+include('includes/topbar.php');
+include('includes/db_config.php');   
 ?>
 
     <div id="content-wrapper" class="d-flex flex-column">
@@ -25,7 +26,12 @@ include('includes/topbar.php');
                       <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total Admin</div>
                       <div class="h5 mb-0 font-weight-bold text-gray-800">
                       
-                      <h4 class="mb-0 font-weight-bold text-gray-800" ></h4>
+                      <?php
+                        $query = "SELECT id FROM admins ORDER BY id";
+                        $query_run = mysqli_query($connection, $query);
+                        $row = mysqli_num_rows($query_run);
+                        echo '<h4 class="mb-0 font-weight-bold text-gray-800" >'.$row.'</h4>';
+                      ?>
                       
                       </div>
                     
@@ -46,7 +52,12 @@ include('includes/topbar.php');
                       <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Total Gamers</div>
                       <div class="h5 mb-0 font-weight-bold text-gray-800">
 
-                      <h4 class="mb-0 font-weight-bold text-gray-800" ></h4>
+                      <?php
+                        $query = "SELECT id FROM gamers ORDER BY id";
+                        $query_run = mysqli_query($connection, $query);
+                        $row = mysqli_num_rows($query_run);
+                        echo '<h4 class="mb-0 font-weight-bold text-gray-800" >'.$row.'</h4>';
+                      ?>
 
                       </div>
 
