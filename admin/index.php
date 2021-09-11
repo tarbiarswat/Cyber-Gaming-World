@@ -75,12 +75,17 @@ include('includes/db_config.php');
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tota Organizers</div>
+                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Total Organizers</div>
                       <div class="row no-gutters align-items-center">
                         <div class="col-auto">
                           <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">
                           
-                          <h4 class="mb-0 font-weight-bold text-gray-800" ></h4>
+                          <?php
+                            $query = "SELECT o_id FROM organizers ORDER BY o_id";
+                            $query_run = mysqli_query($connection, $query);
+                            $row = mysqli_num_rows($query_run);
+                            echo '<h4 class="mb-0 font-weight-bold text-gray-800" >'.$row.'</h4>';
+                          ?>
   
                           </div>
 
@@ -100,10 +105,15 @@ include('includes/db_config.php');
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Total Games</div>
+                      <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Total Tournaments</div>
                       <div class="h5 mb-0 font-weight-bold text-gray-800">
                       
-                      <h4 class="mb-0 font-weight-bold text-gray-800" ></h4>
+                        <?php
+                          $query = "SELECT trn_id FROM tournaments ORDER BY trn_id";
+                          $query_run = mysqli_query($connection, $query);
+                          $row = mysqli_num_rows($query_run);
+                          echo '<h4 class="mb-0 font-weight-bold text-gray-800" >'.$row.'</h4>';
+                        ?>
 
                       </div>
 
