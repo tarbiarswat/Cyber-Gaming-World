@@ -18,6 +18,11 @@ include('includes/topbar.php');
 
         <div class="modal-body">
 
+              <div class="form-group">
+                  <label> Profile Photo </label>
+                  <input type="file" class="btn btn-primary" data-toggle="modal">
+              </div>
+
             <div class="form-group">
                 <label> Username </label>
                 <input type="text" name="username" class="form-control" placeholder="Enter Username">

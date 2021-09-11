@@ -28,8 +28,8 @@ include('includes/topbar.php');
                                 <div class="col-md-4 mb-4">
 
                                     <div class="md-form md-outline">
-                                    <label for="f2" class="">Tournament Title</label>
-                                    <input type="text" id="f2" class="form-control">
+                                    <label for="tournaments_title" class="">Tournament Title</label>
+                                    <input type="text" name="tournaments_title" id="tournaments_title" class="form-control">
                                     </div>
 
                                 </div>
@@ -40,8 +40,8 @@ include('includes/topbar.php');
                                 <div class="col-lg-4 col-md-6 mb-4">
                                 <label for="f2" class="">Game Name</label>
                                     <fieldset class="form-check mb-4">
-                                    <input class="form-check-input" name="group1" type="radio" id="radio1" checked="checked">
-                                    <label class="form-check-label" for="radio1">Valorant &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                    <input class="form-check-input" name="group1" type="radio" id="Valorant" checked="checked">
+                                    <label class="form-check-label" for="Valorant">Valorant &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                                     <input class="form-check-input" name="group1" type="radio" id="radio2">
                                     <label class="form-check-label" for="radio2">Call of Duty &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                                     <input class="form-check-input" name="group1" type="radio" id="radio3">
@@ -119,12 +119,12 @@ include('includes/topbar.php');
 
                                 <div class="col-md-2 mb-4">
                                     <label for="f4" class="">Upload Featured Image</label>
-                                    <input type="file" class="btn btn-primary" data-toggle="modal">
+                                    <input type="file" class="btn btn-primary">
                                 </div>
 
                             </div>
 
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addadminprofile">
+                            <button type="button" class="btn btn-primary">
                             Submit Data 
                             </button>
 
