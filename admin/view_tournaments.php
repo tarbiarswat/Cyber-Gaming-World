@@ -1,8 +1,8 @@
 <?php  
+include('includes/db_config.php');
 include('includes/header.php'); 
 include('includes/navbar.php');
-include('includes/topbar.php');   
-include('includes/db_config.php');
+include('includes/topbar.php');
 ?>
 
 <div id="content-wrapper" class="d-flex flex-column">
@@ -25,7 +25,7 @@ include('includes/db_config.php');
                     <div class="table-responsive">
 
                     <?php
-                      $query = "SELECT * FROM tournaments";
+                      $query = "SELECT * FROM tournaments ORDER BY trn_id DESC";
                       $query_run = mysqli_query($connection, $query);
                       ?>
 
@@ -63,7 +63,6 @@ include('includes/db_config.php');
                             <td><?php echo $row['playerCapacity']; ?></td>
                             <td><?php 
                             echo "<img style='width: 144px; border-radius: 15px;' src='img/".$row['trn_featured_image']."' >";
-
                             ?>
                             </td>
                             
@@ -89,10 +88,6 @@ include('includes/db_config.php');
 
                 </div>
               </div>
-
-
-
-
 
 
         </div>

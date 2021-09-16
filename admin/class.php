@@ -23,7 +23,6 @@ if(isset($_POST['login_btn']))
  
 }
 
-
 if(isset($_POST['logout_btn']))
 {
     session_destroy();
@@ -59,11 +58,37 @@ if(isset($_POST['submit_tournament']))
             header('location: add_tournaments.php');
         }
 
+}
 
 
+if(isset($_POST['add_admin']))
+{
+    $profilePhoto = $_FILES['profilePhoto']['name'];
+    $username = $_POST['username'];
+    $fullname = $_POST['fullname'];
+    $email_id = $_POST['email_id'];
+    $password = $_POST['password'];
     
 
+    $target = "img/admins/".basename($profilePhoto);
+    
+
+        $query = "INSERT INTO admins (profilePhoto, username, fullname, email_id, password) VALUES ('$profilePhoto', '$username', '$fullname', '$email_id', '$password')";
+        $query_run = mysqli_query($connection, $query);
+
+        if($query_run)
+        {
+            move_uploaded_file($_FILES['profilePhoto']['tmp_name'], $target);
+            header('location: adminslist.php');
+        }
+        else
+        {
+            
+            header('location: index.php');
+        }
+
 }
+
 
 
 
