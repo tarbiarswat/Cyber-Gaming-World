@@ -61,7 +61,12 @@ include('includes/db_config.php');
                             <td><?php echo $row['tournamentDesc']; ?></td>
                             <td><?php echo $row['duration']; ?> Days</td>
                             <td><?php echo $row['playerCapacity']; ?></td>
-                            <td></td>
+                            <td><?php 
+                            echo "<img style='width: 144px; border-radius: 15px;' src='img/".$row['trn_featured_image']."' >";
+
+                            ?>
+                            </td>
+                            
                             <td></td>
                             <td></td>
                             </tr>
