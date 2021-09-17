@@ -20,28 +20,25 @@
                                 <div class="box-rounded padding30" data-bgcolor="#21273e">
                                     <h3 class="mb10">Register here</h3>
                                     <p>Already a member? Login <a href="login.php">here<span></span></a>.</p>
-                                    <form name="contactForm" id='contact_form' class="form-border" method="post" action='blank.php'>
+                                    <form action='class.php' class="form-border" method="post" enctype="multipart/form-data" >
 
-
-                                        <div class="field-set">
-                                        <label>Name</label>
-                                        <input type='text' name='name' id='name' class="form-control" placeholder="Full Name" >
-                                        </div>
 
                                         <div class="field-set">
                                         <label>Username</label>
-                                        <input type='text' name='name' id='name' class="form-control" placeholder="Username" >
+                                        <input type='text' name='username' id='username' class="form-control" placeholder="Username" >
                                         </div>
+                                    
+                                        <div class="field-set">
+                                        <label>Full Name</label>
+                                        <input type='text' name='fullname' id='fullname' class="form-control" placeholder="Full Name" >
+                                        </div>
+                                       
 
                                         <div class="field-set">
                                         <label>Email</label>
-                                        <input type='text' name='email' id='email' class="form-control" placeholder="Email address">
+                                        <input type='text' name='email_id' id='email_id' class="form-control" placeholder="Email address">
                                         </div>
 
-                                        <div class="field-set">
-                                        <label>Phone</label>
-                                        <input type='text' name='name' id='name' class="form-control" placeholder="01XXX-YYYYYY" >
-                                        </div>
 
                                         <div class="field-set">
                                         <label>Password</label>
@@ -49,11 +46,18 @@
                                         </div>
                                         <div class="field-set">
                                         <label>Re-Type Password</label>
-                                        <input type='password' name='password' id='password' class="form-control" placeholder="Re-Type password">
+                                        <input type='password' name='cpassword' id='cpassword' class="form-control" placeholder="Confirm password">
                                         </div>
-                                        
+
                                         <div class="field-set">
-                                        <input type='submit' id='send_message' value='Register' class="btn btn-main btn-fullwidth color-2">
+                                        <label>Profile Photo</label>
+                                        <input type='file' name='user_profilePhoto' id='user_profilePhoto' class="btn btn-main btn-fullwidth color-2 " >
+                                        </div>
+                                        <div></div>&nbsp;&nbsp;&nbsp;
+                                        
+                                        <div class="field-set" >
+                                        <input type='submit' name="gamer_register" id='gamer_register' value='Register' class="btn btn-main btn-fullwidth color-2"> &nbsp;&nbsp;&nbsp;&nbsp;
+                                        
                                         </div>
                                         
                                         <div class="clearfix"></div>
