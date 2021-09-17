@@ -42,7 +42,7 @@ include('includes/topbar.php');
             </div>
             <div class="form-group">
                 <label>Confirm Password</label>
-                <input type="password" name="confirmpassword" class="form-control" placeholder="Confirm Password">
+                <input type="password" name="cpassword" class="form-control" placeholder="Confirm Password">
             </div>
         
         </div>
@@ -116,7 +116,12 @@ include('includes/topbar.php');
                       <td><?php echo $row['fullname']; ?></td>
                       <td><?php echo $row['email_id']; ?></td>
                       <td><?php echo $row['password']; ?></td>
-                      <td></td>
+                      <td>
+                          <form action="edit-admin-details.php" method="post">
+                            <input type="hidden" name="edit_id" >
+                            <button  type="submit" name="edit_admin_btn" class="btn btn-success fa fa-edit"></button>
+                          </form>
+                      </td>
                       <td></td>
                       </tr>
                       <?php
@@ -140,5 +145,5 @@ include('includes/topbar.php');
 
 <?php
 include('includes/scripts.php');
-
+include('includes/footer.php');
 ?>

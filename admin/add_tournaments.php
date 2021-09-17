@@ -158,5 +158,5 @@ include('includes/topbar.php');
 <?php  
  
 include('includes/scripts.php');  
- 
+include('includes/footer.php'); 
 ?>
