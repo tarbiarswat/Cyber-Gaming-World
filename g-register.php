@@ -19,7 +19,7 @@
                             <div class="col-lg-5 offset-lg-1">
                                 <div class="box-rounded padding30" data-bgcolor="#21273e">
                                     <h3 class="mb10">Register here</h3>
-                                    <p>Already a member? Login <a href="login.php">here<span></span></a>.</p>
+                                    <p>Already a member? Login <a href="g-login.php">here<span></span></a>.</p>
                                     <form action='class.php' class="form-border" method="post" enctype="multipart/form-data" >
 
 
@@ -53,16 +53,14 @@
                                         <label>Profile Photo</label>
                                         <input type='file' name='user_profilePhoto' id='user_profilePhoto' class="btn btn-main btn-fullwidth color-2 " >
                                         </div>
-                                        <div></div>&nbsp;&nbsp;&nbsp;
+                                        <div class="spacer-single"></div>
                                         
                                         <div class="field-set" >
-                                        <input type='submit' name="gamer_register" id='gamer_register' value='Register' class="btn btn-main btn-fullwidth color-2"> &nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type='submit' name="gamers_register" id='gamer_register' value='Register' class="btn btn-main btn-fullwidth color-2"> &nbsp;&nbsp;&nbsp;&nbsp;
                                         
                                         </div>
                                         
                                         <div class="clearfix"></div>
-                                        
-                                        <div class="spacer-single"></div>
 
                                     </form>
                                 </div>

@@ -3,7 +3,7 @@ session_start();
 include('includes/header.php');  
 ?>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-primary" style="background-image: url('img/n3.jpg');" >
 
   <div class="container py-5">
 

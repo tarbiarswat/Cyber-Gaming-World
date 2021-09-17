@@ -2,7 +2,7 @@
 include('session.php'); 
 include('includes/db_config.php'); 
 
-if(isset($_POST['gamer_register']))
+if(isset($_POST['gamers_register']))
 {
     
     $username = $_POST['username'];
@@ -38,5 +38,28 @@ if(isset($_POST['gamer_register']))
     }
 
 }
+
+if(isset($_POST['gamers_login']))
+{
+    
+    $email_id = $_POST['email_id'];
+    $password = md5($_POST['password']);
+
+    $query = "SELECT * FROM gamers WHERE email_id = '$email_id' AND password = '$password'";
+    $query_run = mysqli_query($connection, $query);
+
+    if(mysqli_fetch_array($query_run))
+    {
+        $_SESSION['email_id'] = $email_id ;
+        header('Location: gamers/index.php');
+    }
+    else
+    {
+        $_SESSION['status'] = 'Wrong Email ID or Password ';
+        header('Location: g-login.php');
+    }
+
+}
+
 
 ?>
