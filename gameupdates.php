@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php  include('includes/header.php')  ?>
+<?php  
+include('includes/header.php');
+include('includes/db_config.php');  
+?>
 
 <section id="subheader" class="text-light" data-bgimage="url(images/background/subheader.jpg) top">
     <div class="center-y relative text-center">
@@ -18,110 +21,55 @@
     </div>
 </section>
 
+
+<?php
+$query = "SELECT * FROM tournaments ORDER BY trn_id DESC";
+$query_run = mysqli_query($connection, $query);
+?>
+
 <section aria-label="section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 mb30">
-                <div class="bloglist item">
-                        <div class="post-content">
-                            <div class="post-image">
-                                <img alt="" src="images/news/news-1.jpg">
-                            </div>
-                            <div class="post-text">
-                                <span class="p-tagline">Tips &amp; Tricks</span>
-                                <span class="p-date">Auguest 2021</span>
-                                <h4><a href="#">Previous winner's bio<span></span></a></h4>
-                                <p>Game news excerpt ...</p>
-                                <a class="btn-main" href="#">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 mb30">
-                <div class="bloglist item">
-                        <div class="post-content">
-                            <div class="post-image">
-                                <img alt="" src="images/news/news-2.jpg">
-                            </div>
-                            <div class="post-text">
-                                <span class="p-tagline">Tips &amp; Tricks</span>
-                                <span class="p-date">Auguest 2021</span>
-                                <h4><a href="#">New updates coming<span></span></a></h4>
-                                <p>Exciting few feature are...</p>
-                                <a class="btn-main" href="#">Read more</a>
+
+        <?php
+            if(mysqli_num_rows($query_run) > 0)
+            {
+                while($row = mysqli_fetch_assoc($query_run))
+                {
+                    ?>
+
+                    <div class="col-lg-4 col-md-6 mb30">
+                        <div class="bloglist item">
+                            <div class="post-content">
+                                <div class="post-image">
+                                <?php 
+                                    echo "<img src='admin/img/".$row['trn_featured_image']."' >";
+                                    ?>
+                                </div>
+                                <div class="post-text">
+                                    <span class="p-tagline"><?php echo $row['gameName']; ?></span>
+                                    <span class="p-date"><?php echo $row['created_at']; ?></span>
+                                    <h4><a href="#"><?php echo $row['tournament_title']; ?><span></span></a></h4>
+                                    <p><?php echo $row['tournamentDesc']; ?></p>
+                                    <a class="btn-main" href="#">Read more</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 mb30">
-                <div class="bloglist item">
-                        <div class="post-content">
-                            <div class="post-image">
-                                <img alt="" src="images/news/news-3.jpg">
-                            </div>
-                            <div class="post-text">
-                                <span class="p-tagline">Tips &amp; Tricks</span>
-                                <span class="p-date">Auguest 2021</span>
-                                <h4><a href="#">Gta gifted ten thousand dollar<span></span></a></h4>
-                                <p>When a gamer solved ...</p>
-                                <a class="btn-main" href="#">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 mb30">
-                <div class="bloglist item">
-                        <div class="post-content">
-                            <div class="post-image">
-                                <img alt="" src="images/news/news-4.jpg">
-                            </div>
-                            <div class="post-text">
-                                <span class="p-tagline">Tips &amp; Tricks</span>
-                                <span class="p-date">Auguest 2021</span>
-                                <h4><a href="#">Cyber punk reviews are mixed<span></span></a></h4>
-                                <p>Having keanu as an icon was...</p>
-                                <a class="btn-main" href="#">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 mb30">
-                <div class="bloglist item">
-                        <div class="post-content">
-                            <div class="post-image">
-                                <img alt="" src="images/news/news-5.jpg">
-                            </div>
-                            <div class="post-text">
-                                <span class="p-tagline">Tips &amp; Tricks</span>
-                                <span class="p-date">Auguest 2021</span>
-                                <h4><a href="#">Why was flappy bird deleteted<span></span></a></h4>
-                                <p>Therer are some infor...</p>
-                                <a class="btn-main" href="#">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 mb30">
-                <div class="bloglist item">
-                        <div class="post-content">
-                            <div class="post-image">
-                                <img alt="" src="images/news/news-6.jpg">
-                            </div>
-                            <div class="post-text">
-                                <span class="p-tagline">Tips &amp; Tricks</span>
-                                <span class="p-date">Auguest 2021</span>
-                                <h4><a href="#">PUBG gets negative reponse<span></span></a></h4>
-                                <p> Some country even thinking of banning ...</p>
-                                <a class="btn-main" href="#">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
+
+<?php
+                }
+            }
+
+            else
+            {
+                echo "No Record Found";
+            }
+            ?>
+
+
+           
+
 
         </div>
                 

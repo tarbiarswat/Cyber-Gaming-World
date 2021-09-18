@@ -49,12 +49,7 @@ include('includes/db_config.php');
 
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="nft__item">
-                            <div class="author_list_pp">
-                                <a href="">                                    
-                                    <img class="lazy" src="images/author/author-1.jpg" alt="">
-                                    <i class="fa fa-check"></i>
-                                </a>
-                            </div>
+                            <span class="p-tagline"><?php echo $row['gameName']; ?></span>
                             <div class="nft__item_wrap">
                                 <a href="">
                                 <?php 
