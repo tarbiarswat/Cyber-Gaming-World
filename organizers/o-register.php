@@ -18,6 +18,11 @@ include('includes/header.php');
                             </div>
                             <form action="class.php" class="user" method="POST" enctype="multipart/form-data">
 
+                            <form action="class.php" class="user" method="POST" enctype="multipart/form-data">
+
+                            <form class="class.php" method="POST" enctype="multipart/form-data">
+
+
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-4 mb-sm-0">
                                         <input type="text" name="username" class="form-control form-control-user" id="username" placeholder="username">
@@ -41,7 +46,13 @@ include('includes/header.php');
                                 <div class="form-group row">
                                   <div class="col-sm-4 mb-sm-0">
                                     <label for="">Upload Profile Photo</label>
+
                                   <input type="file" name="o_profilePhoto" class="btn btn-primary btn-user "></input>
+
+                                  <input type="file" name="o_profilePhoto" class="btn btn-primary btn-user "></input>
+
+                                  <input type="file" class="btn btn-primary btn-user "></input>
+
                                   </div>
                                 </div>
 
