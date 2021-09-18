@@ -15,8 +15,8 @@ include('includes/topbar.php');
 
             <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">List of Tournaments 
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addadminprofile">List of Tournaments</button>
+                  <h6 class="m-0 font-weight-bold text-primary">List of Game Updates
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addadminprofile">List of Game Updates</button>
                   </h6>
                 </div>
 
@@ -25,7 +25,7 @@ include('includes/topbar.php');
                     <div class="table-responsive">
 
                     <?php
-                      $query = "SELECT * FROM tournaments ORDER BY trn_id DESC";
+                      $query = "SELECT * FROM game_updates ORDER BY gmu_id DESC";
                       $query_run = mysqli_query($connection, $query);
                       ?>
 
