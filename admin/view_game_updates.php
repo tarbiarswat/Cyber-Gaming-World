@@ -25,7 +25,7 @@ include('includes/topbar.php');
                     <div class="table-responsive">
 
                     <?php
-                      $query = "SELECT * FROM tournaments ORDER BY trn_id DESC";
+                      $query = "SELECT * FROM game_updates ORDER BY gmu_id DESC";
                       $query_run = mysqli_query($connection, $query);
                       ?>
 
@@ -38,8 +38,6 @@ include('includes/topbar.php');
                             <th>Description </th>
                             <th>source Link </th>
                             <th>Featured Images</th>
-                    
-                            <th>Posted At </th>
                             <th>EDIT </th>
                             <th>DELETE </th>
                           </tr>
@@ -60,9 +58,9 @@ include('includes/topbar.php');
                             <td><?php echo $row['description']; ?></td>
                             <td><?php echo $row['sourceLink']; ?></td>
                             <td><?php echo $row['gmu_featured_image']; ?> Days</td>
-                            <td><?php echo $row['posted_at']; ?></td>
+                            
                             <td><?php 
-                            echo "<img style='width: 144px; border-radius: 15px;' src='img/".$row['trn_featured_image']."' >";
+                            echo "<img style='width: 144px; border-radius: 15px;' src='img/".$row['gmu_featured_image']."' >";
                             ?>
                             </td>
                             

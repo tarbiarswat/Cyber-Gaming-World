@@ -14,7 +14,7 @@ include('includes/db_config.php');
             <div class="row">
                 
                 <div class="col-md-12 text-center">
-                    <h1>Featured Tournaments</h1>
+                    <h1>Tournaments</h1>
                     <p>Test Subtitle</p>
                 </div>
                 <div class="clearfix"></div>
@@ -24,74 +24,73 @@ include('includes/db_config.php');
 </section>
 
 
+
 <section id="section-items" class="no-bottom">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="text-center">
-                    <h2>Featured Tournaments</h2>
-                    <div class="small-border bg-color-2"></div>
-                </div>
-            </div>
-            
+
             <?php
             $query = "SELECT * FROM tournaments ORDER BY trn_id DESC";
             $query_run = mysqli_query($connection, $query);
             ?>
-        
-            <div id="items-carousel" class="owl-carousel wow fadeIn">
 
-                <div class="d-item">
-                    
-                    <div class="nft__item">
-                        
-                        <?php
-                            if(mysqli_num_rows($query_run) > 0)
-                            {
-                                while($row = mysqli_fetch_assoc($query_run))
-                                {
-                        ?>
-                            
+            <div class="col-lg-12">
+                <div class="text-center">
+                    <h2>Ongoing Tournaments</h2>
+                    <div class="small-border bg-color-2"></div>
+                </div>
+            </div>
+            <?php
+            if(mysqli_num_rows($query_run) > 0)
+            {
+                while($row = mysqli_fetch_assoc($query_run))
+                {
+                    ?>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="nft__item">
+                            <div class="author_list_pp">
+                                <a href="">                                    
+                                    <img class="lazy" src="images/author/author-1.jpg" alt="">
+                                    <i class="fa fa-check"></i>
+                                </a>
+                            </div>
                             <div class="nft__item_wrap">
-                                <a href="#">
+                                <a href="">
                                 <?php 
-                                echo "<img style='width: 260px; border-radius: 15px;' src='admin/img/".$row['trn_featured_image']."' >";
-                                ?>
+                            echo "<img src='admin/img/".$row['trn_featured_image']."' >";
+                            ?>
                                 </a>
                             </div>
                             <div class="nft__item_info">
-                                <a href="#">
+                                <a href="">
                                     <h4><?php echo $row['tournament_title']; ?></h4>
                                 </a>
                                 <div class="nft__item_price">
-                                <?php echo $row['playerCapacity']; ?>
+                                    Player Capacity<span><?php echo $row['playerCapacity']; ?></span>
                                 </div>
                                 <div class="nft__item_action">
                                     <a href="#">Enter Tournament</a>
                                 </div>
                                 <div class="nft__item_like">
-                                <?php echo $row['tournamentType']; ?>
-                                </div> 
-                                                        
-                            </div>
-                            <?php
-                                }
-                            ?>
-                            <?php
-                            }
-
-                            
-                            ?>
-                            
-                    </div>
-                </div>                 
-                    
-
-
+                                    <i class="fa fa-money"></i><span><?php echo $row['tournamentType']; ?></span>
+                                </div>                                 
+                            </div> 
+                        </div>
                 
-                      
-                    
-            </div>
+                    </div>
+                    <?php
+                              }
+                          }
+
+                          else
+                          {
+                              echo "No Record Found";
+                          }
+                          ?>
+
+   
+
         </div>
     </div>
 </section>

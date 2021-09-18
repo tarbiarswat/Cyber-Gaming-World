@@ -63,16 +63,6 @@ include('includes/topbar.php');
                                         </div>
 
                                     </div>
-
-                                    <div class="col-md-2 mb-4">
-
-                                        <div class="md-form md-outline">
-                                        <label for="posted_at" class="">Posted At</label>
-                                        <input type="text" name="posted_at" id="posted_at" class="form-control">
-                                        </div>
-
-                                    </div>
-
                                     </div>
 
 
