@@ -1,4 +1,5 @@
 <?php  
+include('includes/db_config.php');
 include('includes/header.php'); 
 include('includes/navbar.php');
 include('includes/topbar.php');   
@@ -8,28 +9,6 @@ include('includes/topbar.php');
     <div id="content">
         <div class="container-fluid">
 
-                    <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-left-primary shadow h-100 py-2">
-                        <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                            <div class="text-m font-weight-bold text-primary text-uppercase mb-1">Total Games</div>
-                            <div class="h5 mb-0 font-weight-bold text-gray-800">
-
-                            <h4 class="mb-0 font-weight-bold text-gray-800" >15</h4>
-
-                            </div>
-                            
-                            </div>
-                            <div class="col-auto">
-                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-
-        
 
                     <div class="card shadow mb-4">
 
@@ -47,8 +26,8 @@ include('includes/topbar.php');
 
                                             <div class="col-md-4 mb-4">
                                                 <div class="md-form md-outline">
-                                                <label for="tournament_title" class="">Game Name</label>
-                                                <input type="text" name="tournament_title" id="tournament_title" class="form-control">
+                                                <label for="gameName" class="">Game Name</label>
+                                                <input type="text" name="gameName" id="gameName" class="form-control">
                                                 </div>
                                             </div>
 
@@ -58,12 +37,12 @@ include('includes/topbar.php');
                                             <div class="col-lg-4 col-md-6 mb-4">
                                                 <div class="form-group">
                                                     <label>Select Game Category</label>
-                                                    <select class="form-control">
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                        <option>4</option>
-                                                        <option>5</option>
+                                                    <select name="gameCat" class="form-control">
+                                                        <option type="text" name="gameCat" value="Action">Action</option>
+                                                        <option type="text" name="gameCat" value="Racing" >Racing</option>
+                                                        <option type="text" name="gameCat" value="Strategy">Strategy</option>
+                                                        <option type="text" name="gameCat" value="Cards">Cards</option>
+                                                        <option type="text" name="gameCat" value="Casino">Casino</option>
                                                     </select>
                                                 </div>   
                                             </div>
@@ -72,8 +51,8 @@ include('includes/topbar.php');
                                         <div class="row text-left">
                                             <div class="col-md-6 mb-4">
                                                 <div class="md-form md-outline">
-                                                    <label for="tournamentDesc">Game Description</label>
-                                                    <textarea type="text" name="tournamentDesc" id="tournamentDesc" class="md-textarea form-control" rows="3"></textarea>
+                                                    <label for="gameDesc">Game Description</label>
+                                                    <textarea type="text" name="gameDesc" id="gameDesc" class="md-textarea form-control" rows="3"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -82,16 +61,16 @@ include('includes/topbar.php');
                                         <div class="row">
                                             <div class="col-md-4 mb-4">
                                                 <div class="md-form md-outline">
-                                                <label for="duration" class="">Developer Name</label>
-                                                <input type="text" name="duration" id="duration" class="form-control">
+                                                <label for="gameDeveloperName" class="">Developer Name</label>
+                                                <input type="text" name="gameDeveloperName" id="gameDeveloperName" class="form-control">
                                                 </div>
                                             </div>
 
                                             <div class="col-md-2 mb-4">
 
                                                 <div class="md-form md-outline">
-                                                <label for="playerCapacity" class="">Game Ranking</label>
-                                                <input type="text" name="playerCapacity" id="playerCapacity" class="form-control">
+                                                <label for="gameRating" class="">Game Rating</label>
+                                                <input type="text" name="gameRating" id="gameRating" class="form-control">
                                                 </div>
 
                                             </div>
@@ -102,14 +81,14 @@ include('includes/topbar.php');
                                         <div class="row">
 
                                             <div class="col-md-2 mb-4">
-                                                <label for="trn_featured_image" class="">Upload Featured Image</label>
-                                                <input type="file" name="trn_featured_image" class="btn btn-primary">
+                                                <label for="g_featured_image" class="">Upload Featured Image</label>
+                                                <input type="file" name="g_featured_image" class="btn btn-primary">
                                             </div>
 
                                         </div>
                                         
 
-                                        <button type="submit" name="submit_tournament" class="btn btn-primary">Submit Data </button>
+                                        <button type="submit" name="submit_games" class="btn btn-primary">Submit Data </button>
 
                                     </form>
 

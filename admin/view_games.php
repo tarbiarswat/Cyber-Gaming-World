@@ -8,16 +8,35 @@ include('includes/topbar.php');
 <div id="content-wrapper" class="d-flex flex-column">
     <div id="content">
         <div class="container-fluid">
-        
 
-                <div class="my-2"></div>
-                <a href="#" class="btn btn-primary btn-icon-split">
-                    <span class="icon text-white-50">
-                        <i class="fas fa-plus"></i>
-                    </span>
-                    <span class="text">Add New Games</span>
-                </a>
-                <div class="my-2"></div>
+
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-left-primary shadow h-100 py-0">
+                        <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total Games</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+
+                            <?php
+                                $query = "SELECT game_id FROM games ORDER BY game_id";
+                                $query_run = mysqli_query($connection, $query);
+                                $row = mysqli_num_rows($query_run);
+                                echo '<h4 class="mb-0 font-weight-bold text-gray-800" >'.$row.'</h4>';
+                            ?>
+
+                            </div>
+                            
+                            </div>
+                            <div class="col-auto">
+                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
 
                 <div class="card mb-10 py-6 border-bottom-info">
                     <div class="card-body">
@@ -71,7 +90,7 @@ include('includes/topbar.php');
                                         <td><?php echo $row['gameDeveloperName']; ?> Days</td>
                                         <td><?php echo $row['gameRating']; ?></td>
                                         <td><?php 
-                                        echo "<img style='width: 144px; border-radius: 15px;' src='img/".$row['g_featured_image']."' >";
+                                        echo "<img style='width: 144px; border-radius: 15px;' src='img/games/".$row['g_featured_image']."' >";
                                         ?>
                                         </td>
                                         

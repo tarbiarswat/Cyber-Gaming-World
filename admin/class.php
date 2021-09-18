@@ -60,6 +60,36 @@ if(isset($_POST['submit_tournament']))
 
 }
 
+if(isset($_POST['submit_games']))
+{
+
+    $gameName = $_POST['gameName'];
+    $gameCat = $_POST['gameCat'];
+    $gameDesc = $_POST['gameDesc'];
+    $gameDeveloperName = $_POST['gameDeveloperName'];
+    $gameRating = $_POST['gameRating'];
+    $g_featured_image = $_FILES['g_featured_image']['name'];
+
+    $target = "img/games/".basename($g_featured_image);
+    
+
+        $query = "INSERT INTO games (gameName, gameCat, gameDesc, gameDeveloperName, gameRating, g_featured_image) VALUES ('$gameName', '$gameCat', '$gameDesc', '$gameDeveloperName', '$gameRating', '$g_featured_image')";
+        $query_run = mysqli_query($connection, $query);
+
+        if($query_run)
+        {
+            move_uploaded_file($_FILES['g_featured_image']['tmp_name'], $target);
+            header('location: view_games.php');
+        }
+        else
+        {
+            
+            header('location: add_games.php');
+        }
+
+}
+
+
 
 if(isset($_POST['add_admin']))
 {
@@ -147,6 +177,8 @@ if(isset($_POST['add_feedback']))
         }
 
 }
+
+
 
 
 ?>
