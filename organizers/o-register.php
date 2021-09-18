@@ -16,7 +16,11 @@ include('includes/header.php');
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Register as Organizer!</h1>
                             </div>
+<<<<<<< HEAD
                             <form action="class.php" class="user" method="POST" enctype="multipart/form-data">
+=======
+                            <form class="class.php" method="POST" enctype="multipart/form-data">
+>>>>>>> 7f9a59d983d22bf91ecafa35501c3060fa10ce49
 
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-4 mb-sm-0">
@@ -41,7 +45,11 @@ include('includes/header.php');
                                 <div class="form-group row">
                                   <div class="col-sm-4 mb-sm-0">
                                     <label for="">Upload Profile Photo</label>
+<<<<<<< HEAD
                                   <input type="file" name="o_profilePhoto" class="btn btn-primary btn-user "></input>
+=======
+                                  <input type="file" class="btn btn-primary btn-user "></input>
+>>>>>>> 7f9a59d983d22bf91ecafa35501c3060fa10ce49
                                   </div>
                                 </div>
 
