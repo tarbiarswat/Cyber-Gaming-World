@@ -35,30 +35,18 @@
         </div>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-tasks"></i>
-          <span>Game Updates</span>
-        </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Access Game Updates</h6>
-            <a class="collapse-item" href="add_game_updates.php">Add Game Updates</a>
-            <a class="collapse-item" href="view_game_updates.php">View Game Updates</a>
-          </div>
-        </div>
-      </li>
+
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
           <i class="fas fa-swatchbook"></i>
-          <span>Games</span>
+          <span>Posts</span>
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Access Games</h6>
-            <a class="collapse-item" href="add_games.php">Add New Game</a>
-            <a class="collapse-item" href="view_games.php">View Games</a>
+            <h6 class="collapse-header">Write Your Thoughts</h6>
+            <a class="collapse-item" href="">Add New Post</a>
+            <a class="collapse-item" href="">View Posts</a>
             
           </div>
         </div>
@@ -73,50 +61,28 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
           <i class="fas fa-fw fa-folder"></i>
-          <span>Admin Resources</span>
+          <span>Resources</span>
         </a>
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">File Manager</h6>
-            <a class="collapse-item" href="#">Add A New File</a>
-            <a class="collapse-item" href="#">Uploaded Files</a>
+            <h6 class="collapse-header">From Admins</h6>
+            <a class="collapse-item" href="#">Gaming Guides</a>
+            <a class="collapse-item" href="#">Tokens</a>
 
-            <div class="collapse-divider"></div>
-            <h6 class="collapse-header">Other Pages:</h6>
-            <a class="collapse-item" href="#">Send Notifications</a>
-            <a class="collapse-item" href="#">Blank Page</a>
           </div>
         </div>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="gamers.php">
-          <i class="fas fa-user-plus"></i>
-          <span>Gamers</span></a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="organizers.php">
-          <i class="fas fa-user-plus"></i>
-          <span>Organizers</span></a>
-      </li>
-
-      <li class="nav-item">
         <a class="nav-link" href="memberslist.php">
-          <i class="fas fa-user-plus"></i>
-          <span>Members</span></a>
+          <i class="fas fa-user"></i>
+          <span>My Profile</span></a>
       </li>
 
       <li class="nav-item">
         <a class="nav-link" href="feedbacks.php">
           <i class="fas fa-question-circle"></i>
-          <span>Feedbacks</span></a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <i class="fas fa-network-wired"></i>
-          <span>Extras</span></a>
+          <span>Give Feedbacks</span></a>
       </li>
 
       <hr class="sidebar-divider d-none d-md-block">

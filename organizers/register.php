@@ -10,17 +10,13 @@ include('includes/header.php');
   <div class="card o-hidden border-0 shadow-lg my-5">
             <div class="card-body p-0">
                 <div class="row">
-                    <div class="col-lg-5 d-none d-lg-block"  ></div>
+                    <div class="col-lg-5 d-none d-lg-block" style="background: url('img/o-register-bg.jpg');background-position: center;background-size: cover;" ></div>
                     <div class="col-lg-7">
                         <div class="p-5">
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Register as Organizer!</h1>
                             </div>
                             <form action="class.php" class="user" method="POST" enctype="multipart/form-data">
-
-                            <form action="class.php" class="user" method="POST" enctype="multipart/form-data">
-
-                            <form class="class.php" method="POST" enctype="multipart/form-data">
 
 
                                 <div class="form-group row">
@@ -48,10 +44,6 @@ include('includes/header.php');
                                     <label for="">Upload Profile Photo</label>
 
                                   <input type="file" name="o_profilePhoto" class="btn btn-primary btn-user "></input>
-
-                                  <input type="file" name="o_profilePhoto" class="btn btn-primary btn-user "></input>
-
-                                  <input type="file" class="btn btn-primary btn-user "></input>
 
                                   </div>
                                 </div>

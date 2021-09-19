@@ -5,22 +5,21 @@ include('includes/header.php');
 
 <body class="bg-gradient-primary" style="background-image: url('img/subheader-dark.jpg');" >
 
-  <div class="container py-5">
+<div class="container py-5">
 
-    <div class="row justify-content-center">
+<div class="row justify-content-center">
 
-      <div class="col-xl-6 col-lg-6 col-md-6">
+  <div class="col-xl-10 col-lg-12 col-md-9">
 
-        <div class="card o-hidden border-0 shadow-lg my-5">
+      <div class="card o-hidden border-0 shadow-lg my-5">
           <div class="card-body p-0">
-            <div class="row">
-              
-              <div class="col-lg-12">
-                <div class="p-5">
-                  <div class="text-center">
-                  <img class="img-profile" src="img/icons8-lock-40.png">
-                  
-                    <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+              <!-- Nested Row within Card Body -->
+              <div class="row">
+                  <div class="col-lg-6 d-none d-lg-block " style="background: url('img/o-register-bg.jpg');background-position: center;background-size: cover;"></div>
+                  <div class="col-lg-6">
+                      <div class="p-5">
+                          <div class="text-center">
+                              <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
 
                     <?php
                       if(isset($_SESSION['status']) && $_SESSION['status'] !='' )
@@ -52,6 +51,9 @@ include('includes/header.php');
                   <hr>
                   <div class="text-center">
                     <a class="small" href="#">Forgot Password?</a>
+                  </div>
+                  <div class="text-left">
+                    <a class="small" href="../index.php"> <i class="fas fa-arrow-left"></i> Back To Home </a>
                   </div>
                   
                 </div>
