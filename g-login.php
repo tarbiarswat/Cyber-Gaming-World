@@ -40,7 +40,7 @@
 							
 								<div class="col-lg-5 offset-lg-3" >
 									<div class="box-rounded padding40" data-bgcolor="#21273e">
-										<h3 class="mb10">Sign In</h3>
+										<h3 class="mb10">Login as Gamer</h3>
 										<p>Login using an existing account or create a new account <a href="g-register.php">here<span></span></a>.</p>
 										<form action='class.php' class="form-border" method="post" >
 

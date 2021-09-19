@@ -37,7 +37,7 @@ include('includes/db_config.php');
                     
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                      <i class="fas fa-user fa-2x text-gray-300"></i>
                     </div>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ include('includes/db_config.php');
 
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                      <i class="fas fa-gamepad fa-2x text-gray-300"></i>
                     </div>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ include('includes/db_config.php');
                       </div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                      <i class="fas fa-sitemap fa-2x text-gray-300"></i>
                     </div>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ include('includes/db_config.php');
 
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-comments fa-2x text-gray-300"></i>
+                      <i class="fas fa-calendar-alt fa-2x text-gray-300"></i>
                     </div>
                   </div>
                 </div>

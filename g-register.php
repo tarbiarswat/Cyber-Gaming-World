@@ -14,11 +14,18 @@
                             <div class="col-lg-5 text-light">
                             <div class="spacer-10"></div>
                             <h1>Join us & win real prizes</h1>
+
+                            <div onclick="location.href='organizers/register.php';" style="cursor: pointer;" class="feature-box f-boxed style-2">
+                                <i class="i-boxed icon_profile"></i>
+                                <div class="text">
+                                    <h4>Register as Organizer</h4>
+                                </div>
+                            </div>
                         </div>
                             
                             <div class="col-lg-5 offset-lg-1">
                                 <div class="box-rounded padding30" data-bgcolor="#21273e">
-                                    <h3 class="mb10">Register here as a gamer</h3>
+                                    <h3 class="mb10">Register Here as a Gamer</h3>
                                     <p>Already a member? Login <a href="g-login.php">here<span></span></a>.</p>
                                     <form action='class.php' class="form-border" method="post" enctype="multipart/form-data" >
 
