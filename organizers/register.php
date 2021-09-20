@@ -15,6 +15,7 @@ include('includes/header.php');
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Register as Organizer!</h1>
                             </div>
+                            
                             <form action="class.php" class="user" method="POST" enctype="multipart/form-data">
 
 

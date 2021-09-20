@@ -127,7 +127,70 @@ include('includes/db_config.php');
             </div>
           </div>
 
+
+          <div class="card mb-10 py-6 border-bottom-info">
+              <div class="card-body">
+              <div style="text-align:center;" class="text-m font-weight-bold text-primary text-uppercase mb-1">Quick Links</div>
+              </div>
+              
+          </div>
+
+<div>
+  &nbsp;
+</div>
+
+          <div class="row" >
+            <div class="col-lg-4 mb-4">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Tournaments</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center">
+                            <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
+                                src="img/undraw_posting_photo.svg" alt="...">
+                        </div>
+                        <a  href="view_tournaments.php">Browse all tournaments &rarr;</a>
+                    </div>
+                </div>
             </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Game Updates</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center">
+                            <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 15.5rem;"
+                                src="img/gnews.png" alt="...">
+                        </div>
+                        <a  href="view_game_updates.php">Browse all game updates &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Games</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center">
+                            <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 15.5rem;"
+                                src="img/gaming-vector-1.png" alt="...">
+                        </div>
+                        <a  href="view_games.php">Browse all games &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+
+
+
+            </div>
+            
           </div>
 
         </div>

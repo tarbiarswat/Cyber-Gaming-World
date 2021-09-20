@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 17, 2021 at 08:51 PM
+-- Generation Time: Sep 19, 2021 at 05:26 PM
 -- Server version: 5.7.19
 -- PHP Version: 5.6.31
 
@@ -81,21 +81,24 @@ DROP TABLE IF EXISTS `gamers`;
 CREATE TABLE IF NOT EXISTS `gamers` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(30) NOT NULL,
-  `fullName` varchar(50) NOT NULL,
-  `user_profilePhoto` text NOT NULL,
+  `fullname` varchar(50) NOT NULL,
   `email_id` varchar(50) NOT NULL,
   `password` text NOT NULL,
+  `user_profilePhoto` text NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `gamerRanking` int(10) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `gamers`
 --
 
-INSERT INTO `gamers` (`id`, `username`, `fullName`, `user_profilePhoto`, `email_id`, `password`, `created_at`, `gamerRanking`) VALUES
-(1, 'ultron', 'John Doe', 'NULL', 'john01!gmail.com', '123456', '2021-09-11 17:14:24', 17);
+INSERT INTO `gamers` (`id`, `username`, `fullname`, `email_id`, `password`, `user_profilePhoto`, `created_at`, `gamerRanking`) VALUES
+(1, 'ultron', 'John Doe', 'john01!gmail.com', '123456', 'NULL', '2021-09-11 17:14:24', 17),
+(2, 'ultron2', 'Ultron Gaming', 'ultron2@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'children-form-icon.png', '2021-09-17 22:46:32', NULL),
+(3, 'paulsaasdev', 'Paul Saasdev', 'paul.saasdev@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'logout-icon.png', '2021-09-17 23:35:31', NULL),
+(4, 'test1', 'Test Name', 'test@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'settings.png', '2021-09-17 23:45:24', NULL);
 
 -- --------------------------------------------------------
 
@@ -106,22 +109,22 @@ INSERT INTO `gamers` (`id`, `username`, `fullName`, `user_profilePhoto`, `email_
 DROP TABLE IF EXISTS `games`;
 CREATE TABLE IF NOT EXISTS `games` (
   `game_id` int(11) NOT NULL AUTO_INCREMENT,
-  `gameName` varchar(30) NOT NULL,
-  `gameCat` varchar(30) NOT NULL,
+  `gameName` varchar(100) NOT NULL,
+  `gameCat` varchar(100) NOT NULL,
   `gameDesc` text NOT NULL,
   `gameDeveloperName` varchar(100) DEFAULT NULL,
-  `gameRating` float DEFAULT NULL,
-  `g_featured_image` text NOT NULL,
+  `gameRating` varchar(20) DEFAULT NULL,
+  `g_featured_image` varchar(200) NOT NULL,
   `posted_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`game_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `games`
 --
 
 INSERT INTO `games` (`game_id`, `gameName`, `gameCat`, `gameDesc`, `gameDeveloperName`, `gameRating`, `g_featured_image`, `posted_at`) VALUES
-(1, 'Valorant', 'Action', 'Dummy Description goes here...', 'Ubisoft', 7.1, 'NULL', '2021-09-11 17:17:05');
+(3, 'Valorant', 'Action', 'This is a dummy description', 'Ubisoft', '8.9', 'Deep-Learning-vs-Machine-Learning.jpg', '2021-09-18 07:30:32');
 
 -- --------------------------------------------------------
 
@@ -152,19 +155,27 @@ CREATE TABLE IF NOT EXISTS `organizers` (
   `o_id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(100) NOT NULL,
   `fullName` varchar(100) NOT NULL,
-  `o_profilePhoto` text NOT NULL,
   `email_id` varchar(100) NOT NULL,
   `password` text NOT NULL,
-  `isVerified` varchar(15) DEFAULT NULL,
+  `o_profilePhoto` text NOT NULL,
   PRIMARY KEY (`o_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `organizers`
 --
 
-INSERT INTO `organizers` (`o_id`, `username`, `fullName`, `o_profilePhoto`, `email_id`, `password`, `isVerified`) VALUES
-(1, 'ucc_bd', 'UCC', 'NULL', 'uccbd@gmail.com', '123456', '1');
+INSERT INTO `organizers` (`o_id`, `username`, `fullName`, `email_id`, `password`, `o_profilePhoto`) VALUES
+(1, 'ucc_bd', 'UCC', 'uccbd@gmail.com', '123456', 'NULL'),
+(2, 'startechbd', 'Star Tech', 'startech@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', ''),
+(4, 'globaltech', 'Global Tech Hub', 'globaltech@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', ''),
+(5, 'paulsaasdev', 'Paul Dev', 'paul.saasdev@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', ''),
+(6, 'paulsaasdev2', 'Paul Dev2', 'paul.saasdev2@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '1188-testingg.webp'),
+(7, 'paulsaasdev3', 'Paul Dev23', 'paul.saasdev23@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'bug_bounty_more.jpg'),
+(8, 'sdfsdfsdf', 'sdfsdfs', 'sfdsdfds@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'ai-and-dev.jpg'),
+(9, 'fsdfsd', 'sdfsdf', 'sfsdfsd@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'hohs8swq3kxoldxg0crz.png'),
+(10, 'dsfsdfsdf', 'sfdsdf', 'sdfsdfsd@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'hohs8swq3kxoldxg0crz.png'),
+(11, 'fdsfsdf', 'sdfsdf', 'sfsdfsdfsdfsd@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'bug_bounty_more.jpg');
 
 -- --------------------------------------------------------
 
@@ -184,17 +195,18 @@ CREATE TABLE IF NOT EXISTS `tournaments` (
   `trn_featured_image` text NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`trn_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `tournaments`
 --
 
 INSERT INTO `tournaments` (`trn_id`, `tournament_title`, `gameName`, `tournamentType`, `tournamentDesc`, `duration`, `playerCapacity`, `trn_featured_image`, `created_at`) VALUES
-(15, 'GTA V The Ultimate Goal', 'GTA V Online', 'Free', 'Long Long DescriptionLong Long DescriptionLong Long DescriptionLong Long DescriptionLong Long DescriptionLong Long DescriptionLong Long DescriptionLong Long DescriptionLong Long DescriptionLong Long DescriptionLong Long DescriptionLong Long Description', '3', '12', 'n1.jpg', '2021-09-16 03:52:24'),
-(17, 'Valorant Season Unknown', 'Valorant', 'Free', 'This is a demo description This is a demo description This is a demo description This is a demo description This is a demo description This is a demo description This is a demo description This is a demo description This is a demo description ', '3', '12', 'register.png', '2021-09-17 17:55:30'),
-(14, 'Valorant Season 1', 'Valorant', '', 'This is a description This is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a description', '2', '2', 'n2.jpg', '2021-09-16 03:44:06'),
-(16, 'Call of Duty season 3', 'Call of Duty', 'Paid', 'This is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a description', '3', '4', 'n3.jpg', '2021-09-16 04:15:42');
+(17, 'Valorant Season Final', 'Valorant', 'Free', 'This is a demo description This is a demo description This is a demo description This is a demo description This is a demo description This is a demo description This is a demo description This is a demo description This is a demo description ', '3', '12', 'register.png', '2021-09-17 17:55:30'),
+(14, 'Valorant Season 1', 'Valorant', 'Free', 'This is a description This is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a description', '2', '2', 'n2.jpg', '2021-09-16 03:44:06'),
+(16, 'Call of Duty season 3', 'Call of Duty', 'Paid', 'This is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a description', '3', '4', 'n3.jpg', '2021-09-16 04:15:42'),
+(18, 'GTA Mod V1', 'GTA V Online', 'Paid', 'This is a description', '3', '5', 'ai-and-dev.jpg', '2021-09-18 21:12:04'),
+(19, 'COD Beta', 'Call of Duty', 'Free', 'This is a description', '1', '20', 'ai.png', '2021-09-18 21:14:10');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

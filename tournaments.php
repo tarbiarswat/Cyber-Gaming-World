@@ -40,6 +40,7 @@ include('includes/db_config.php');
                     <div class="small-border bg-color-2"></div>
                 </div>
             </div>
+
             <?php
             if(mysqli_num_rows($query_run) > 0)
             {
@@ -74,6 +75,7 @@ include('includes/db_config.php');
                         </div>
                 
                     </div>
+                    
                     <?php
                               }
                           }
