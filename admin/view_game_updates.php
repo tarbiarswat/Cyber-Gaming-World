@@ -60,7 +60,7 @@ include('includes/topbar.php');
                             <td><?php echo $row['gmu_featured_image']; ?> Days</td>
                             
                             <td><?php 
-                            echo "<img style='width: 144px; border-radius: 15px;' src='img/".$row['gmu_featured_image']."' >";
+                            echo "<img style='width: 144px; border-radius: 15px;' src='img/game_updates/".$row['gmu_featured_image']."' >";
                             ?>
                             </td>
                             

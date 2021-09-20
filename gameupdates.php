@@ -23,7 +23,7 @@ include('includes/db_config.php');
 
 
 <?php
-$query = "SELECT * FROM tournaments ORDER BY trn_id DESC";
+$query = "SELECT * FROM game_updates ORDER BY gmu_id DESC";
 $query_run = mysqli_query($connection, $query);
 ?>
 
@@ -43,14 +43,14 @@ $query_run = mysqli_query($connection, $query);
                             <div class="post-content">
                                 <div class="post-image">
                                 <?php 
-                                    echo "<img src='admin/img/".$row['trn_featured_image']."' >";
+                                    echo "<img src='admin/img/game_updates/".$row['gmu_featured_image']."' >";
                                     ?>
                                 </div>
                                 <div class="post-text">
                                     <span class="p-tagline"><?php echo $row['gameName']; ?></span>
-                                    <span class="p-date"><?php echo $row['created_at']; ?></span>
-                                    <h4><a href="#"><?php echo $row['tournament_title']; ?><span></span></a></h4>
-                                    <p><?php echo $row['tournamentDesc']; ?></p>
+                                    <span class="p-date"><?php echo $row['posted_at']; ?></span>
+                                    <h4><a href="#"><span><?php echo $row['title']; ?></span></a></h4>
+                                    <p></p>
                                     <a class="btn-main" href="#">Read more</a>
                                 </div>
                             </div>

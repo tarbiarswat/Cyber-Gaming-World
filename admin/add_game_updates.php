@@ -69,7 +69,7 @@ include('includes/topbar.php');
                                     <div class="row">
 
                                     <div class="col-md-2 mb-4">
-                                        <label for="gmu_featured_image" class="">GMU Featured Image</label>
+                                        <label for="gmu_featured_image" class="">Featured Image</label>
                                         <input type="file" name="gmu_featured_image" class="btn btn-primary">
                                     </div>
 
